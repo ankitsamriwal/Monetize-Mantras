@@ -1,0 +1,21 @@
+{
+  "appId": "com.mantrapractice.app",
+  "appName": "Mantra Practice",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#f8f9ff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP"
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "useLegacyBridge": false
+  }
+}
